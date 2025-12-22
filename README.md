@@ -29,7 +29,7 @@ counter-8bit-asic/
 │   ├── post_syn/
 │   └── post_layout/
 ├── layout/
-└── lib/
+    └──Lib 
 ```
 
 
