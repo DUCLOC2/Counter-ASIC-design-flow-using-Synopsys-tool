@@ -7,7 +7,7 @@ The counter has the following features:
 3. It includes an enable signal to pause/hold the counting.
 ASIC Flow:
 RTL → Simulation → Synthesis → Synthesis checking → STA → Formality → Floor planning → Placement → CTS -> Routing.
-Digital IC design using EDA tools such as Synopsys VCS, Design Compiler, IC Compiler, PrimeTime, etc., with a 90-nm EDK library.
+###Digital IC design using EDA tools such as Synopsys VCS, Design Compiler, IC Compiler, PrimeTime, etc., with a 90-nm EDK library.
 ### Project Structure
 
 ```text
