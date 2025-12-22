@@ -8,34 +8,29 @@ The counter has the following features:
 ASIC Flow:
 RTL → Simulation → Synthesis → Synthesis checking → STA → Formality → Floor planning → Placement → CTS -> Routing. 
 
-counter8bit-asic/
-│
+## Project Structure
+
+```text
+counter-8bit-asic/
 ├── README.md
-│
 ├── rtl/
 │   └── counter.v
+├── tb/
 │   └── counter_tb.v
-│
 ├── sim/
-│   └── pre_syn
-│   └── post_syn
-│   └── post_layout
-│
 ├── syn/
-│    
-│
-├── syn_check
-│   
-├── timing
-│   ├── post_syn
-│   ├── post_layout      
-│
-├── formal
-│   └── post_syn
-│   └── post_layout
-│
-└── layout
-    ├── Lib
-   
+│   ├── pre_syn/
+│   ├── post_syn/
+│   └── syn_check/
+├── timing/
+│   ├── post_syn/
+│   └── post_layout/
+├── formal/
+│   ├── post_syn/
+│   └── post_layout/
+├── layout/
+└── lib/
+```
+
 
 
